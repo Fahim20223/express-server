@@ -1,8 +1,10 @@
 import express from "express";
-import { AiRoutes } from "./ai.route";
+// import { AiRoutes } from "./ai.route";
 // import { EventRoutes } from "./event.route";
-import { UserRoutes } from "./user.route";
+// import { UserRoutes } from "./user.route";
 import { EventRoutes } from "./event.routes";
+import { AiRoutes } from "./ai.routes";
+import { UserRoutes } from "./user.routes";
 
 const router = express.Router();
 
